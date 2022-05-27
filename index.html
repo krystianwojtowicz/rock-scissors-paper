@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="button" data-option="rock">rock</button>
+    <button class="button" data-option="paper">paper</button>
+    <button class="button" data-option="scissors">scissors</button>
+    <button class="start">Let's play!</button>
+
+    <div class="panel-left">
+        <h3>Wyniki gry</h3>
+        <p>Twój wybór: <span data-summary="your-choice"></span></p>
+        <p>Wybór komputera: <span data-summary="ai-choice"></span></p>
+        <h2>Zwycięzca gry: <span data-summary="who-win"></span></h2>
+    </div>
+
+    <div class="panel-right">
+        <h3>Aktualne wyniki</h3>
+        <!-- <p class="numbers">liczba gier: <span>0</span></p> -->
+        <p class="wins">wygranych: <span>0</span></p>
+        <p class="losses">przegranych: <span>0</span></p>
+        <p class="draws">remisów: <span>0</span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
